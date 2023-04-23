@@ -1,0 +1,68 @@
+body {
+    background: #B8B8B8;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 113.71px;
+    height: 100px;
+    padding-bottom: 84px;
+}
+div.telo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    justify-content: center;
+    background:#D9D9D9;
+    padding: 50px;
+    border-radius: 10px;
+}
+div {
+    display: grid;
+    place-items: center center;
+}
+div.mail_text {
+    font-size: 25px;
+}
+input.mail {
+    font-size: 25px;
+    width: 337px;
+    height: 56px;
+    border: none;
+    background: #B8B8B8;
+    border-radius: 5px;
+}
+div.password_text {
+    font-size: 25px;
+}
+input.password {
+    font-size: 25px;
+    width: 337px;
+    height: 56px;
+    border: none;
+    background: #B8B8B8;
+    border-radius: 5px;
+}
+button#enter{
+    font-size: 25px;
+    margin-top: 84px;
+    width: 220px;
+    height: 65px;
+    background: #B8B8B8;
+    border-radius: 5px;
+    border: none;
+}
+button#reg{
+    font-size: 25px;
+    margin-top: 45px;
+    width: 220px;
+    height: 65px;
+    background: #B8B8B8;
+    border-radius: 5px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}

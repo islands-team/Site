@@ -1,0 +1,84 @@
+body {
+    background: #B8B8B8;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.form {
+    
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background: #D9D9D9;
+}
+div.verh{
+    margin-top: 25px;
+}
+a.bt {
+    margin-left: 82px;
+    font-size: 25px;
+    background: #D9D9D9;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+a.bt:hover {
+    padding: 2px 5px;
+    transition-duration: 1s;
+    width: 125px;
+    height: 41px;
+    background: #B8B8B8;
+    border-radius: 5px;
+}
+a.bt1 {
+    margin-left: 72px;
+    font-size: 25px;
+    background: #D9D9D9;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+a.bt1:hover {
+    padding: 2px 5px;
+    transition-duration: 1s;
+    width: 125px;
+    height: 41px;
+    background: #B8B8B8;
+    border-radius: 5px;
+}
+a.bt2{
+    margin-left: 75px;
+    font-size: 25px;
+    background: #D9D9D9;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+a.bt2:hover {
+    padding: 2px 5px;
+    transition-duration: 1s;
+    width: 125px;
+    height: 41px;
+    background: #B8B8B8;
+    border-radius: 5px;
+}
+div.telo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    justify-content: center;
+    background:#D9D9D9;
+    padding: 50px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center center;
+}
+p #name {
+    font-size: 25px;
+}
+p #fam {
+    font-size: 25px;
+}

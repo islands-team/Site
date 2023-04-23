@@ -1,0 +1,24 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/css/index.css' %}">
+{% endblock %}
+{% block title %}Вход{% endblock %}
+
+{% block content %}
+<div class="form">
+    <div class="telo">
+        <img src="static/main/logo/logo.png">
+        <div class="mail_text">
+            <p>Почта</p>
+        </div>
+            <input class="mail">
+        <div class="password_text">
+            <p>Пароль</p>
+        </div>
+            <input class="password">
+            <a href="cabinet.html"><button id="enter">Войти</button></a>
+            <a href="reg.html"><button id="reg">Регистрация</button></a>
+    </div>
+</div>
+{% endblock %}

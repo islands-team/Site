@@ -1,0 +1,17 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'main/css/cab.css' %}">
+{% endblock %}
+{% block title %}Личный кабинет{% endblock %}
+
+{% block content %}
+<div class="form">
+    <div class="verh">
+        <a href="#" class="bt">Главная</a>
+        <a href="#" class="bt1">Чат</a>
+        <a href="#" class="bt2">В работе</a>  
+    </div>
+</div>
+
+{% endblock %}
